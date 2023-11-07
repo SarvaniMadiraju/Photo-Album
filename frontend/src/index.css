@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+nav {
+  font-size: 1.8rem;
+  font-family: "Goudy Old Style";
+  font-weight: bold;
+  background-color: rgb(136, 94, 3);
+  color: #fff;
+  padding: 1rem 5rem;
+}
+
+.nav__logo {
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.button {
+  color: rgb(201, 23, 118);
+  font-size: 60px;
+  height: 65px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.grid__item {
+  text-align: center;
+}
+
+.grid__item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.grid__item h3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.grid__item p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.grid__item p:last-child {
+  margin-bottom: 10px;
+}
+
+
+
+h1 {
+  font-size: 1.8rem;
+  color: rgb(201, 12, 69);
+  font-weight: 600;
+  margin: 2rem 5rem;
+}
+.upload-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.upload-form h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.upload-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-form input,
+.upload-form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.upload-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.upload-form button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-form button:hover {
+  background-color: #0056b3;
+}
